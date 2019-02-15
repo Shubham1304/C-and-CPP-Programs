@@ -51,7 +51,7 @@ void display()
 
 }
 
-void main(int argc, char *argv[]){
+int main(int argc, char *argv[]){
 
 	float ambient[] = { 1,1,1,1 };
 
@@ -79,4 +79,5 @@ void main(int argc, char *argv[]){
 
 	glutMainLoop();
 
+	return 1;
 }
